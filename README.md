@@ -4,7 +4,7 @@
 
 Ex Libris Moi is a personal library management system that helps users catalog their books and media, track lending activities, and explore new titles. The app provides an elegant and minimalist user interface for organizing collections and interacting with friends or the community.
 
-## User Stories
+## 🧾 User Stories
 
 The following are features within the app that the user is able to do. They are separated by "must-have" (required) and "nice-to-have" (optional).
 
@@ -29,4 +29,46 @@ For Ex Libris Moi, I identified the following required features which a user nee
 - User can send reminders for overdue or upcoming returns
 - Wishlist is able to lead to an online store to buy book
 
-## Screens
+## 🤳 Screens
+
+The following are the screens that the user will encounter while working in the app. Like the features, they are separated by required and optional.
+
+### Required Screens
+
+- Home Screen
+    - Displays the user's library collection
+    - Includes search, filter, and sort functionalities
+    - Allows user to scan new books into their collection
+- Discover Screen
+    - Shows feed of books/media from external sources
+    - Allows users to add new items to a wishlist 
+- Lending Screen
+    - Tracks books lent out and borrowed
+    - Includes status labels like "Due soon" and "Borrowed out"
+    - Add new loans and mark items as returned
+- Profile Screen
+    - User account details and app settings
+    - Options to log out
+ 
+## Optional Screens
+
+- Community Screen
+    - A social feed for recommendations and shared collections
+ 
+## 🔄️ Navigation Flow
+
+### Tab Navigation (Tab to Screen)
+
+- Home/overall personal library
+- Discover new titles
+- Lending
+- Profile
+
+### Flow Navigation
+
+- Login/sign up screen => Home
+- Home => Add new book/media
+- Discover titles => View wishlist
+- (For future version) Community feed (Find friends) => Create post
+- Lending/manage loans => Add new loan
+- Profile => Login/sign up screen (if user logs out)
